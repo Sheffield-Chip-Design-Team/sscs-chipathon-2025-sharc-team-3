@@ -21,7 +21,7 @@ The design and implementation flow involves:
 
 **------**
 
-> 📷 **Block Diagram**
+> 📷 **High Level Cell Specification and Logic Design**
 
 <img width="479" height="218" alt="image" src="https://github.com/user-attachments/assets/df9a62f6-ec83-4dce-b0e7-566706d0738d" />
 
