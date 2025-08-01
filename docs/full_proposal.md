@@ -1,5 +1,10 @@
-# SSCS-Chipathon-2025 # 
-**Team: Sharc Team 3**
+# SSCS-Chipathon-2025 Project Proposal # 
+**Sharc Team 3** 
+
+**Members**
+- **Swapnanil Chattopadhyay**, 
+- James Ashie Kotey, 
+- K Arjunan.
 
 ## Project Goal
 
