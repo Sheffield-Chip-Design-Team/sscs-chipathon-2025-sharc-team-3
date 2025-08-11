@@ -10,7 +10,7 @@ export PATH="$DESIGNS/scripts:$PATH"
 #==============================================================
 # PDK
 # This script is aliased to `iic-pdk` in the .bashrc file
-# source iic-pdk-script.sh gf180mcuD
+ source iic-pdk-script.sh gf180mcuD
 
 #==============================================================
 # Xschem
@@ -18,11 +18,11 @@ export PATH="$DESIGNS/scripts:$PATH"
 # This way you won't have missing symbols when starting xschem from a different directory
 # Overriding .bashrc alias for cp to avoid the -i flag
 \cp -f ./.config/.xschem/xschemrc ~/.xschem/xschemrc
-# mkdir -p /headless/.xschem/simulations
+mkdir -p /headless/.xschem/simulations
 
 #==============================================================
 # Klayout
-# export KLAYOUT_PATH=/foss/designs/klayout_lib:$KLAYOUT_PATH
+export KLAYOUT_PATH=/foss/designs/klayout_lib:$KLAYOUT_PATH
 
 alias klayout='klayout -rm $DESIGNS/scripts/klayout_lib_manager.py -geometry 1600x900+100+50 -e'
 
@@ -42,8 +42,6 @@ fi
 if [ ! -L ~/.klayout/libraries/gf180mcu_fd_io.gds ]; then
   ln -s /foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds ~/.klayout/libraries/
 fi
-
-
 
 #==============================================================
 # GDS3D
